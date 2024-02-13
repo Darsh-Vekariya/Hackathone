@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\91905\\.nuget\\packages\\": {}
+    "C:\\Users\\Dhrutik\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Hackathone\\Hackathone\\Hackathone.csproj",
+      "projectUniqueName": "D:\\4 years\\Sem-6\\DOT NET\\Hackathone\\Hackathone\\Hackathone.csproj",
       "projectName": "Hackathone",
-      "projectPath": "D:\\Hackathone\\Hackathone\\Hackathone.csproj",
-      "packagesPath": "C:\\Users\\91905\\.nuget\\packages\\",
-      "outputPath": "D:\\Hackathone\\Hackathone\\obj\\",
+      "projectPath": "D:\\4 years\\Sem-6\\DOT NET\\Hackathone\\Hackathone\\Hackathone.csproj",
+      "packagesPath": "C:\\Users\\Dhrutik\\.nuget\\packages\\",
+      "outputPath": "D:\\4 years\\Sem-6\\DOT NET\\Hackathone\\Hackathone\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\91905\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Dhrutik\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,6 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -56,15 +57,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
