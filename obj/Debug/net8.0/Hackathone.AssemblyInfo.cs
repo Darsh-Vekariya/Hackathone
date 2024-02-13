@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Hackathone")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< Updated upstream
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fb7d405a84a80271438075c69d2db02f25dd119")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69d57a2302e15ec1828d93e653a8dfc1586f72a1")]
->>>>>>> Stashed changes
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b46ae4d77e8e2122a4ea4e50931a9a0b155f982")]
 [assembly: System.Reflection.AssemblyProductAttribute("Hackathone")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Hackathone")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
