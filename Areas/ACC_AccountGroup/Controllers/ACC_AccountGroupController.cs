@@ -24,7 +24,7 @@ namespace Hackathone.Areas.ACC_AccountGroup.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            List<ACC_AccountGroupModel> role = new List<ACC_AccountGroupModel>();
+            List<AccountGroupModel> role = new List<AccountGroupModel>();
             HttpResponseMessage response = client.GetAsync(url).Result;
             if (response.IsSuccessStatusCode)
             {
@@ -32,10 +32,11 @@ namespace Hackathone.Areas.ACC_AccountGroup.Controllers
                 dynamic jsonObject = JsonConvert.DeserializeObject(data);
                 var dataOfObject = jsonObject.data;
                 var extDataJason = JsonConvert.SerializeObject(dataOfObject, Formatting.Indented);
-                role = JsonConvert.DeserializeObject<List<ACC_AccountGroupModel>>(extDataJason);
+                role = JsonConvert.DeserializeObject<List<AccountGroupModel>>(extDataJason);
 
             }
             return View(role);
         }
+        #endregion
     }
 }

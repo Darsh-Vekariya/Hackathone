@@ -1,0 +1,149 @@
+﻿@model IEnumerable<Hackathone.Areas.ACC_AccountGroup.Models.AccountGroupModel>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountGroupID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountGroupName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountGroupPrintName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BalanceSheetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentAccountGroupID_AccountGroupName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentAccountGroupID_BalanceSheetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TopAccountGroupID_AccountGroupName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TopAccountGroupID_BalanceSheetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RelativeAccountGroupID_BalanceSheetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RelativeAccountGroupID_AccountGroupName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ReportType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AccountIn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BalanceOn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsEditable)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FlowType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Remarks)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CompanyName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Created)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modified)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountGroupID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountGroupName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountGroupPrintName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceSheetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentAccountGroupID_AccountGroupName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentAccountGroupID_BalanceSheetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TopAccountGroupID_AccountGroupName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TopAccountGroupID_BalanceSheetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RelativeAccountGroupID_BalanceSheetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RelativeAccountGroupID_AccountGroupName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReportType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AccountIn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BalanceOn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsEditable)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FlowType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Remarks)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CompanyName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Created)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Modified)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

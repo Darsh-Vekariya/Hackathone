@@ -7,12 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Areas\ACC\Controllers\" />
+    <Folder Include="Areas\ACC\Data\" />
+    <Folder Include="Areas\ACC\Models\" />
+    <Folder Include="Areas\ACC\Views\" />
     <Folder Include="Areas\ACC_AccountGroup\Data\" />
-    <Folder Include="Areas\ACC_AccountGroup\Views\" />
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.1.1" />
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+    <PackageReference Include="EnterpriseLibrary.Data.NetCore" Version="6.3.2" />
     <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.9" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
